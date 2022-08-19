@@ -11,6 +11,9 @@ const NavBar = () => {
   };
   const handleClose = () => {
     setAnchorEl(null);
+  };
+  const handleOpen = () => {
+    setAnchorEl(null);
     localStorage.clear();
     navigate('/login');
   };
@@ -44,7 +47,7 @@ const NavBar = () => {
             'aria-labelledby': 'basic-button',
           }}
         >
-          <MenuItem onClick={handleClose}>Logout</MenuItem>
+          <MenuItem onClick={handleOpen}>Logout</MenuItem>
         </Menu>
       </Box>
     </Box>

@@ -27,7 +27,7 @@ const Messages = () => {
       <NavBar />
       <Box
         minWidth={'30rem'}
-        minHeight='70%'
+        height='70%'
         boxShadow={'rgba(0, 0, 0, 0.24) 0px 3px 8px'}
         display={'flex'}
         flexDirection={'column'}
